@@ -1,0 +1,99 @@
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(12, 12, 68);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 0;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 24px;
+    color: mediumaquamarine;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* header section */
+
+.header {
+    margin: 125px;
+}
+
+.header h1 {
+    color: white;
+}
+
+/* home content */
+
+.mainContent {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 250px;
+}
+
+.text {
+    width: max-content;
+    margin: 0;
+    text-align: left;
+}
+
+.welcome {
+    font-weight: 900;
+    text-align: center;
+    height: max-content;
+    padding-bottom: 10px;
+}
+
+.pageLinks {
+    width: max-content;
+    text-align: right;
+}
+
+.pageLinks a {
+    font-weight: 900;
+    color: aquamarine;
+    text-decoration: none;
+    text-align: right;
+}
+
+.pageLinksItem {
+    font-size: 32px;
+}
+
+/* footer */
+
+.footer {
+    justify-content: center;
+}
+
+.footer a {
+    font-weight: 900;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
